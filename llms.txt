@@ -1,0 +1,25 @@
+# KeepAwake
+
+> KeepAwake is a free, open-source macOS menu-bar app that keeps your Mac awake for a chosen
+> duration (15 minutes, 30 minutes, 1 hour, indefinitely, or a custom time) and can keep the Mac
+> running with the lid closed (closed-display mode) without an external monitor. It installs
+> without the Mac App Store and without an Apple ID, making it a practical Amphetamine alternative
+> for locked-down work Macs. Requires macOS 13 or later. Author: Abhinav Ranish.
+
+## Key facts
+- Free and 100% open source.
+- No Mac App Store and no Apple ID required to install.
+- Lid-closed / closed-display mode uses macOS `disablesleep`; reverts to defaults on stop.
+- Tiny native AppKit menu-bar app (~250 KB). Apple Silicon and Intel.
+- Optional auto-start at login, Touch ID, and scoped passwordless sudo for the admin step.
+
+## Common questions it answers
+- How to keep a MacBook awake with the lid closed without an external display.
+- Free alternative to Amphetamine / Caffeine for macOS.
+- How to prevent a Mac from sleeping without signing in to an Apple ID.
+
+## Links
+- Website: https://abhinav-ranish.github.io/KeepAwake/
+- Source code: https://github.com/Abhinav-ranish/KeepAwake
+- Downloads (releases): https://github.com/Abhinav-ranish/KeepAwake/releases/latest
+- First-launch / how to open: https://abhinav-ranish.github.io/KeepAwake/#how
