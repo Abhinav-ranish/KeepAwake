@@ -1,0 +1,46 @@
+KeepAwake ☕  —  how to open it the first time
+================================================
+
+This app was built by Abhinav, not downloaded from the App Store, so macOS will
+ask you to approve it once. This is normal and safe. After the first time it just
+opens like any other app.
+
+FIRST LAUNCH (macOS Sonoma / Sequoia / 26)
+-------------------------------------------
+1. Drag KeepAwake.app into your Applications folder (optional, but tidy).
+2. Double-click KeepAwake.app.
+3. A box says something like "Apple could not verify KeepAwake is free of
+   malware."  Click  Done  (do NOT click Move to Trash).
+4. Open  System Settings  ->  Privacy & Security.
+5. Scroll down to the  Security  section. You'll see:
+       "KeepAwake was blocked to protect your Mac."
+   Click the  Open Anyway  button next to it.
+6. Authenticate with Touch ID or your password, then click  Open Anyway  again.
+7. Done. A coffee-cup icon appears in your menu bar (top-right). Click it to use.
+
+(On older macOS: right-click KeepAwake.app -> Open -> Open.)
+
+Note: the signer shows as "abhinav". Because it isn't a paid Apple Developer
+certificate, macOS still calls it "unidentified" — the Open Anyway step above is
+how you approve it. Nothing to worry about.
+
+WHAT IT DOES
+------------
+Click the cup, pick how long to stay awake (15 min / 30 min / 1 hr / Indefinite /
+Custom). Keep the "Keep running with lid closed" box checked to let the Mac keep
+running with the lid shut (great for downloads/builds). Hit Stop to return to
+normal — it never leaves your Mac unable to sleep.
+
+OPTIONAL EXTRAS (power users)
+-----------------------------
+Open Terminal, cd into this folder, then:
+  bash install.sh                 # auto-start at login
+  sudo bash grant-admin.sh        # lid-closed mode with NO password prompt
+  sudo bash enable-touchid-sudo.sh# Touch ID for sudo
+
+CAUTIONS
+--------
+* Running with the lid closed traps heat — fine for light/medium work, be careful
+  with heavy sustained CPU/GPU load.
+* On battery, a closed-lid session runs until the battery dies. Keep it plugged in.
+* On a managed (Jamf) work Mac, the sudo step may be blocked or reverted by IT.

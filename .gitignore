@@ -1,0 +1,4 @@
+icon.iconset/
+*.app
+*.zip
+.DS_Store
