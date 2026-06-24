@@ -8,7 +8,7 @@ A tiny macOS menu-bar app that keeps your Mac awake — including **running with
 lid closed** (no external display needed), which is what Amphetamine's "closed-display
 mode" does. No App Store, no Apple ID, no third-party apps.
 
-**🌐 Website:** https://abhinav-ranish.github.io/KeepAwake/ · **📦 [Download](https://github.com/Abhinav-ranish/KeepAwake/releases/latest)** · **📝 [Changelog](CHANGELOG.md)**
+**🌐 Website:** https://keepawake.aranish.uk · **📦 [Download](https://github.com/Abhinav-ranish/KeepAwake/releases/latest)** · **📝 [Changelog](CHANGELOG.md)**
 
 > **Why this exists:** I wanted [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704),
 > but it's Mac App Store–only and I couldn't get it installed on my work laptop
